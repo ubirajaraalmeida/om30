@@ -22,11 +22,5 @@ export default {
 </script>
 
 <style>
-body {
-  display: block;
-  background-color: #f1f1f1;
-  color: #fff; 
-  border: solid 1px red;
-  height: 100%;
-}
+
 </style>

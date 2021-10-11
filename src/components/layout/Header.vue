@@ -49,6 +49,7 @@ header{
     background-color: blue;
     top: 0;
     left: 0;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
 }
 header .container-fluid{
     display: flex;
@@ -90,5 +91,10 @@ header button.menuUsuario span{
     height: 60px;
     line-height: 60px;
     padding: 0 5px;
+}
+header button.menuUsuario::after{
+    position: relative;
+    top: 50%;
+    margin-top: -1.5px;
 }
 </style>
