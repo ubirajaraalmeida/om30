@@ -1,6 +1,8 @@
 <template>
     <div>
-
+        <footer>
+            <p>Desenvolvido por Ubirajara Jucá</p>
+        </footer>
     </div>
 </template>
 
@@ -14,3 +16,10 @@ export default {
     }
 }
 </script>
+<style scoped>
+footer{
+    background-color:#fff;
+    display: none;
+    position: relative;
+}
+</style>
