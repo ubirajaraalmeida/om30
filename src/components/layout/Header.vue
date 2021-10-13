@@ -3,9 +3,9 @@
         <header>
             <div class="container-fluid">
                 <div>
-                    <a href="/">
-                        <img :src="logo" :alt="descricao" />
-                    </a>
+                    <router-link to="/">
+                        <img :src="logo" :alt="descricao" class="logo" />
+                    </router-link>
                 </div>
                 <div>
                     <div class="btn-group">
@@ -16,9 +16,15 @@
                             <span>{{ nomeUsuario }}</span>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><button class="dropdown-item" type="button">Perfil</button></li>
-                            <li><button class="dropdown-item" type="button">Configurações</button></li>
-                            <li><button class="dropdown-item" type="button">Sair</button></li>
+                            <li>
+                                <router-link to="/" class="dropdown-item">Perfil</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/" class="dropdown-item">Configurações</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/" class="dropdown-item">Sair</router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +61,7 @@ header .container-fluid{
     display: flex;
     justify-content: space-between;
 }
-header a img {
+header img.logo {
     width: 50px;
     margin: 5px;
 }

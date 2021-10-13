@@ -1,8 +1,6 @@
 <template>
     <div>
-        <footer>
-            <p>Desenvolvido por Ubirajara Jucá</p>
-        </footer>
+        <p>Desenvolvido por Ubirajara Jucá</p>
     </div>
 </template>
 
